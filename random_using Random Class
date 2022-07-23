@@ -1,0 +1,78 @@
+/*
+Using the Random Class
+Another way to generate a random number is to use the Java Random class of the java.util package. It generates a stream of pseudorandom numbers. We can generate a random number of any data type, such as integer, float, double, Boolean, long. If you are going to use this class to generate random numbers, follow the steps given below:
+
+First, import the class java.lang.Random.
+Create an object of the Random class.
+Invoke any of the following methods:
+nextInt(int bound)
+nextInt()
+nextFloat()
+nextDouble()
+nextLong()
+nextBoolean()
+All the above methods return the next pseudorandom, homogeneously distributed value (corresponding method) from this random number generator's sequence. The nextDouble() and nextFloat() method generates random value between 0.0 and 1.0.
+
+The nextInt(int bound) method accepts a parameter bound (upper) that must be positive. It generates a random number in the range 0 to bound-1.
+*/
+
+import java.util.Scanner;  
+class HelloWorld {
+    public static void main(String[] args) {
+       
+      Random random = new Random();   
+
+        int x = random.nextInt(50);   
+        int y = random.nextInt(1000);   
+        System.out.println("Randomly Generated Integers Values");  
+        System.out.println(x);   
+        System.out.println(y);   
+        
+        double a = random.nextDouble();   
+        double b = random.nextDouble();   
+        
+        System.out.println("Randomly Generated Double Values");  
+        System.out.println(a);   
+        System.out.println(b);    
+        
+        float f=random.nextFloat();  
+        float i=random.nextFloat();  
+        
+        System.out.println("Randomly Generated Float Values");  
+        System.out.println(f);   
+        System.out.println(i);   
+         
+        long p = random.nextLong();   
+        long q = random.nextLong();   
+        
+        System.out.println("Randomly Generated Long Values");  
+        System.out.println(p);   
+        System.out.println(q);    
+        
+        boolean m=random.nextBoolean();  
+        boolean n=random.nextBoolean();  
+        
+        System.out.println("Randomly Generated Boolean Values");  
+        System.out.println(m);   
+        System.out.println(n);   
+    }    
+   
+}
+
+/*
+Randomly Generated Integers Values
+23
+767
+Randomly Generated Double Values
+0.37823814494212016
+0.998058172671956
+Randomly Generated Float Values
+0.87804186
+0.93880254
+Randomly Generated Long Values
+-4974823544291679198
+3650240138416076693
+Randomly Generated Boolean Values
+false
+true
+*/
