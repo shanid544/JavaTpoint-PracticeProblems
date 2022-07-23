@@ -1,0 +1,21 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        int n=23,flag=0,i;
+        if(n==1||n==2){
+            flag=1;
+        }
+        else{
+            for(i=2;i<n/2;i++){
+                if(n%i==0){
+                    flag=1;
+                }
+            }
+        }
+        if(flag==1){
+            System.out.println(n+" not a prime");
+        }
+        else{
+             System.out.println(n+" a prime");
+        }
+    }
+}
