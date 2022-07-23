@@ -1,0 +1,32 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;  
+class HelloWorld {
+    public static void main(String[] args) {
+       
+       Scanner sc = new Scanner(System.in);
+        System.out.println("ENTER A NUM TO FIND armstrong");
+       int n=sc.nextInt();
+       int arm=armstrong(n);
+       if(arm==n){
+           System.out.println(n+" is an armstrong number");
+       }
+       else{
+           System.out.println(n+" is not an armstrong number");
+       }
+    }    
+   public static int armstrong(int n){
+       int temp=n,digit=0,sum=0;
+       while(temp>0){
+           temp=temp/10;
+           digit++;
+       }
+       temp = n;
+       while(temp>0){
+           int last=temp%10;
+           sum+=Math.pow(last,digit);
+           temp=temp/10;
+       }
+       return sum;
+    }
+}
