@@ -1,0 +1,46 @@
+
+/*The Java Math class has many methods for different mathematical operations. One of them is the random() method. It is a static method of the Math class. We can invoke it directly. It generates only double type random number greater than or equal to 0.0 and less than 1.0. Before using the random() method, we must import the java.lang.Math class.
+
+Syntax:
+public static double random()  
+It does not accept any parameter. It returns a pseudorandom double that is greater than or equal to 0.0 and less than 1.0.
+
+Let's create a program that generates random numbers using the random() method.
+
+RandomNumberExample1.java*/
+
+import java.util.Scanner;  
+class HelloWorld {
+    public static void main(String[] args) {
+       
+      // Generating random numbers  
+System.out.println("1st Random Number: " + Math.random());   
+System.out.println("2nd Random Number: " + Math.random());  
+System.out.println("3rd Random Number: " + Math.random());   
+System.out.println("4th Random Number: " + Math.random());   
+    }    
+   
+}
+
+/*Output:
+
+1st Random Number: 0.17434160924512265
+2nd Random Number: 0.4297410090709448
+3rd Random Number: 0.4828656381344487
+4th Random Number: 0.13267917059488898*/
+
+/*
+public static void main( String args[] )   
+{  
+int min = 200;  
+int max = 400;  
+//Generate random double value from 200 to 400   
+System.out.println("Random value of type double between "+min+" to "+max+ ":");  
+double a = Math.random()*(max-min+1)+min;   
+System.out.println(a);  
+//Generate random int value from 200 to 400   
+System.out.println("Random value of type int between "+min+" to "+max+ ":");  
+int b = (int)(Math.random()*(max-min+1)+min);  
+System.out.println(b);  
+}  
+*/
