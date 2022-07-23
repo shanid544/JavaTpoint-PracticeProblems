@@ -1,0 +1,26 @@
+import java.util.Scanner;  
+class HelloWorld {
+    public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+       System.out.println("enter a String");
+       String s = sc.nextLine();
+       String rev="";
+       String temp=s;
+       int i=temp.length();
+       while(i>0){
+           
+           rev=rev+temp.charAt(i-1);
+           i--;
+       }
+       if(rev.equals(s)){
+           System.out.println(s+" is palindrome");
+       }
+       else{
+           System.out.println(s+" is not palindrome");
+       }
+       
+    }    
+   /* public static boolean isPrime(int n){
+       
+    }*/
+}
