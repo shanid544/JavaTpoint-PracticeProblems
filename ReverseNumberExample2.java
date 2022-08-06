@@ -16,3 +16,13 @@ public class classReverseNumberExample2  {
 		System.out.println(rev);
 	}  
 }   
+
+/*
+for(;number != 0;)   
+{  
+int remainder = number % 10;  
+reverse = reverse * 10 + remainder;  
+number=number/10;  
+}  */
+
+//allowed this code
