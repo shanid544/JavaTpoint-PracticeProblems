@@ -1,0 +1,16 @@
+//Using the new keyword is the most popular way to create an object or instance of the class. When we create an instance of the class by using the new keyword, it //allocates memory (heap) for the newly created object and also returns the reference of that object to that memory. The new keyword is also used to create an array. 
+
+public class createObjectExample{
+
+	void show(){
+	
+		System.out.println("shanid");
+	}
+	
+	public static void main(String[] args){
+	
+		createObjectExample obj = new createObjectExample();
+		obj.show();
+	}
+}
+
