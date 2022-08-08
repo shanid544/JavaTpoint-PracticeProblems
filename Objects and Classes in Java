@@ -27,8 +27,9 @@
 * 3 Ways to initialize object: By reference variable
                                By method
                                By constructor
+* As you can see in the above figure, object gets the memory in heap memory area. The reference variable refers to the object allocated in the heap memory area. Here,   s1 and s2 both are reference variables that refer to the objects allocated in memory.(https://www.javatpoint.com/object-and-class-in-java)
+
 * 
-*
 *
 *
 *
