@@ -42,7 +42,7 @@
   normal Calculation c=new Calculation();  
   c.fact(5);//Calling method through a reference:
   
-*
+* 
 *
 *
 *
