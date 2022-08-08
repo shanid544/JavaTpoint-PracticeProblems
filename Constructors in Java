@@ -1,0 +1,29 @@
+* Every time an object is created using the new() keyword, at least one constructor is called.
+* It calls a default constructor if there is no constructor available in the class. In such case, Java compiler provides a default constructor by default.
+* There are two types of constructors in Java: no-arg constructor, and parameterized constructor.
+
+* Rules for creating Java constructor
+  Constructor name must be the same as its class name (Every class object is created using the same new keyword, so it must have information about the class to which it      must create an object. For this reason, the constructor name should be the same as the class name.)
+  A Constructor must have no explicit return type
+  A Java constructor cannot be abstract, static, final, and synchronized
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
