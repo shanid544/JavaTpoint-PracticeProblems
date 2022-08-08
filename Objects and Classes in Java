@@ -29,8 +29,19 @@
                                By constructor
 * As you can see in the above figure, object gets the memory in heap memory area. The reference variable refers to the object allocated in the heap memory area. Here,   s1 and s2 both are reference variables that refer to the objects allocated in memory.(https://www.javatpoint.com/object-and-class-in-java)
 
-* 
-*
+* what are the different ways to create an object in Java?
+  By new keyword
+  By newInstance() method
+  By clone() method
+  By deserialization
+  By factory method etc.
+* Anonymous object
+  Anonymous simply means nameless. An object which has no reference is known as an anonymous object. It can be used at the time of object creation only.
+  new Calculation();//anonymous object  
+  new Calculation().fact(5);  //Calling method through an anonymous object
+  normal Calculation c=new Calculation();  
+  c.fact(5);//Calling method through a reference:
+  
 *
 *
 *
