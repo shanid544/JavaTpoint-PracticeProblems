@@ -24,8 +24,10 @@
 
 * new keyword in Java : The new keyword is used to allocate memory at runtime. All objects get memory in Heap memory area.
 * Object and Class Example: main within the class : 
-*
-*
+* 3 Ways to initialize object: By reference variable
+                               By method
+                               By constructor
+* 
 *
 *
 *
